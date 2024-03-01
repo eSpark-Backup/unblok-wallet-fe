@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 29 29">
+  <g id="Group_42057" data-name="Group 42057" transform="translate(-216 -220)">
+    <g id="Group_41358" data-name="Group 41358" transform="translate(3 9.287)">
+      <g id="Ellipse_1132" data-name="Ellipse 1132" transform="translate(213 210.713)" fill="#323234" stroke="#f6f6f6" stroke-width="1">
+        <circle cx="14.5" cy="14.5" r="14.5" stroke="none"/>
+        <circle cx="14.5" cy="14.5" r="14" fill="none"/>
+      </g>
+      <path id="Icon_feather-edit-2" data-name="Icon feather-edit-2" d="M13.861,3.857a2.048,2.048,0,0,1,2.9,2.9L6.982,16.528,3,17.614l1.086-3.982Z" transform="matrix(0.998, -0.07, 0.07, 0.998, 216.475, 215.656)" fill="none" stroke="#f1f1f1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

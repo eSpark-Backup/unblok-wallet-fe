@@ -1,0 +1,133 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "app/assets/fonts/Euclid-Bold.ttf",
+      "sha1": "0a69a0d9a4d2f9477582e7f01d84bc1d61c4d01c"
+    },
+    {
+      "path": "app/assets/fonts/Euclid-Medium.ttf",
+      "sha1": "e97e414467f782f08b7227a89db002829ebb4a52"
+    },
+    {
+      "path": "app/assets/fonts/Euclid-Regular.ttf",
+      "sha1": "d1ad5380051d486ba359d1a38bb8feb3f2a26fe5"
+    },
+    {
+      "path": "app/assets/fonts/Euclid-SemiBold.ttf",
+      "sha1": "e89ec5f5d0749a91981e5544c67bb73d8e135445"
+    },
+    {
+      "path": "app/assets/fonts/Helvetica-Neu-Bold.ttf",
+      "sha1": "4df1c65ace6cb5dfa38ef3f2b59e89ab6d08ada8"
+    },
+    {
+      "path": "app/assets/fonts/HelveticaNeue-Medium.ttf",
+      "sha1": "5b235bd8ab01aa99e3a2a66daea10350a9d254ed"
+    },
+    {
+      "path": "app/assets/fonts/HelveticaNeue-Light.ttf",
+      "sha1": "14236487c484725caf35ed434068fca8ab7e750f"
+    },
+    {
+      "path": "app/assets/fonts/HelveticaNeueHv.ttf",
+      "sha1": "0c828a7876acbabf4471a32182dfb13e1b357977"
+    },
+    {
+      "path": "android/keyboardplugin/src/main/res/raw/empty.dict",
+      "sha1": "8db14d897007ed32ec09a37ae65ffd628463444d"
+    },
+    {
+      "path": "android/keyboardplugin/src/main/res/raw/main.dict",
+      "sha1": "731eef15d24ce80b38a0041d97b66b6fff23eae9"
+    },
+    {
+      "path": "android/keyboardplugin/src/main/res/raw/main_bg.dict",
+      "sha1": "c54504f8edb405e9d1d6725eb71eb5dad3416033"
+    },
+    {
+      "path": "android/keyboardplugin/src/main/res/raw/main_bn.dict",
+      "sha1": "b72d43161a5a7c6512f765bae4975ff134c0c14a"
+    },
+    {
+      "path": "android/keyboardplugin/src/main/res/raw/main_da.dict",
+      "sha1": "c64d6fb4fe178ddd58dda85df205b73fb804eb60"
+    },
+    {
+      "path": "android/keyboardplugin/src/main/res/raw/main_de.dict",
+      "sha1": "1175c6aec24a012c61d35176f6d5dc50c9f0384e"
+    },
+    {
+      "path": "android/keyboardplugin/src/main/res/raw/main_el.dict",
+      "sha1": "76bf0b3963d713923abaa3774ed5ba1e95755c3e"
+    },
+    {
+      "path": "android/keyboardplugin/src/main/res/raw/main_en.dict",
+      "sha1": "c74724b666b6201d852085636299b461c93c1288"
+    },
+    {
+      "path": "android/keyboardplugin/src/main/res/raw/main_eo.dict",
+      "sha1": "d09f588f929bf69eb961dfa3a7a3d209621930b3"
+    },
+    {
+      "path": "android/keyboardplugin/src/main/res/raw/main_es.dict",
+      "sha1": "a80e83fb3772d0d08e3c889a5f4a103eaa1deae8"
+    },
+    {
+      "path": "android/keyboardplugin/src/main/res/raw/main_fr.dict",
+      "sha1": "cc2ecb3c864551cd25d0a310447252b4c3e59cee"
+    },
+    {
+      "path": "android/keyboardplugin/src/main/res/raw/main_hu.dict",
+      "sha1": "4e1c9223dbe89262755ff19813d45b203737c7a8"
+    },
+    {
+      "path": "android/keyboardplugin/src/main/res/raw/main_hy.dict",
+      "sha1": "ca1c1ee6451c12566e234bd8bf88ad8ff577f0f0"
+    },
+    {
+      "path": "android/keyboardplugin/src/main/res/raw/main_it.dict",
+      "sha1": "ce23330cc40a5ff63e0ac90923e9f00d5975d5f6"
+    },
+    {
+      "path": "android/keyboardplugin/src/main/res/raw/main_nl.dict",
+      "sha1": "cf7e5cecbff2a17252eeb6ceb9c5521ef7d2a540"
+    },
+    {
+      "path": "android/keyboardplugin/src/main/res/raw/main_pl.dict",
+      "sha1": "9e9134f9f900be5dc43c5efa21030f625450bdb9"
+    },
+    {
+      "path": "android/keyboardplugin/src/main/res/raw/main_pt_br.dict",
+      "sha1": "b463bbfefebdd292a91930790412d45736cd4aa1"
+    },
+    {
+      "path": "android/keyboardplugin/src/main/res/raw/main_pt_pt.dict",
+      "sha1": "da7460c692ff923a4ea61cd4f639c4c3370fe728"
+    },
+    {
+      "path": "android/keyboardplugin/src/main/res/raw/main_ro.dict",
+      "sha1": "85eed263f58cb06c42fba1e6e3c6c79e085be492"
+    },
+    {
+      "path": "android/keyboardplugin/src/main/res/raw/main_ru.dict",
+      "sha1": "7f23791b2fd27ae1d675501ed52aac389d876c51"
+    },
+    {
+      "path": "android/keyboardplugin/src/main/res/raw/main_sv.dict",
+      "sha1": "24182d41daeec297dedba9e5816e44e89fd12074"
+    },
+    {
+      "path": "android/keyboardplugin/src/main/res/raw/main_tr.dict",
+      "sha1": "ffabbcdcf55d213e3d0541cc67803cb952a3221c"
+    },
+    {
+      "path": "android/keyboardplugin/src/main/res/raw/setup_welcome_image.png",
+      "sha1": "2958315f534ee29bb7ae61c994ac4e2303b6eb2c"
+    },
+    {
+      "path": "android/keyboardplugin/src/main/res/raw/setup_welcome_video.mp4",
+      "sha1": "f8e7cda288dfaebc172ebabd97f95ec389907494"
+    }
+  ]
+}
