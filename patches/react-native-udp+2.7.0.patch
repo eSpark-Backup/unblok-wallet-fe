@@ -1,0 +1,466 @@
+diff --git a/node_modules/react-native-udp/android/build/.transforms/05438c36ab148f7558fc6612b0730d81/results.bin b/node_modules/react-native-udp/android/build/.transforms/05438c36ab148f7558fc6612b0730d81/results.bin
+new file mode 100644
+index 0000000..0d259dd
+--- /dev/null
++++ b/node_modules/react-native-udp/android/build/.transforms/05438c36ab148f7558fc6612b0730d81/results.bin
+@@ -0,0 +1 @@
++o/classes
+diff --git a/node_modules/react-native-udp/android/build/.transforms/05438c36ab148f7558fc6612b0730d81/transformed/classes/classes_dex/classes.dex b/node_modules/react-native-udp/android/build/.transforms/05438c36ab148f7558fc6612b0730d81/transformed/classes/classes_dex/classes.dex
+new file mode 100644
+index 0000000..245480f
+Binary files /dev/null and b/node_modules/react-native-udp/android/build/.transforms/05438c36ab148f7558fc6612b0730d81/transformed/classes/classes_dex/classes.dex differ
+diff --git a/node_modules/react-native-udp/android/build/.transforms/dd0c6925eca28c8b99c628cb6035e1fc/results.bin b/node_modules/react-native-udp/android/build/.transforms/dd0c6925eca28c8b99c628cb6035e1fc/results.bin
+new file mode 100644
+index 0000000..61a58fa
+--- /dev/null
++++ b/node_modules/react-native-udp/android/build/.transforms/dd0c6925eca28c8b99c628cb6035e1fc/results.bin
+@@ -0,0 +1 @@
++i/classes_dex
+diff --git a/node_modules/react-native-udp/android/build/.transforms/e04fca23229878a6d216fa17720d944d/results.bin b/node_modules/react-native-udp/android/build/.transforms/e04fca23229878a6d216fa17720d944d/results.bin
+new file mode 100644
+index 0000000..e3f0ff0
+--- /dev/null
++++ b/node_modules/react-native-udp/android/build/.transforms/e04fca23229878a6d216fa17720d944d/results.bin
+@@ -0,0 +1 @@
++i/classes_global-synthetics
+diff --git a/node_modules/react-native-udp/android/build/generated/source/buildConfig/debug/com/tradle/react/BuildConfig.java b/node_modules/react-native-udp/android/build/generated/source/buildConfig/debug/com/tradle/react/BuildConfig.java
+new file mode 100644
+index 0000000..9f9e2a7
+--- /dev/null
++++ b/node_modules/react-native-udp/android/build/generated/source/buildConfig/debug/com/tradle/react/BuildConfig.java
+@@ -0,0 +1,10 @@
++/**
++ * Automatically generated file. DO NOT MODIFY
++ */
++package com.tradle.react;
++
++public final class BuildConfig {
++  public static final boolean DEBUG = Boolean.parseBoolean("true");
++  public static final String LIBRARY_PACKAGE_NAME = "com.tradle.react";
++  public static final String BUILD_TYPE = "debug";
++}
+diff --git a/node_modules/react-native-udp/android/build/intermediates/aapt_friendly_merged_manifests/debug/aapt/AndroidManifest.xml b/node_modules/react-native-udp/android/build/intermediates/aapt_friendly_merged_manifests/debug/aapt/AndroidManifest.xml
+new file mode 100644
+index 0000000..ed2ab22
+--- /dev/null
++++ b/node_modules/react-native-udp/android/build/intermediates/aapt_friendly_merged_manifests/debug/aapt/AndroidManifest.xml
+@@ -0,0 +1,12 @@
++<?xml version="1.0" encoding="utf-8"?>
++<manifest xmlns:android="http://schemas.android.com/apk/res/android"
++    package="com.tradle.react" >
++
++    <uses-sdk android:minSdkVersion="16" />
++
++    <uses-permission android:name="android.permission.INTERNET" />
++    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
++    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
++    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
++
++</manifest>
+\ No newline at end of file
+diff --git a/node_modules/react-native-udp/android/build/intermediates/aapt_friendly_merged_manifests/debug/aapt/output-metadata.json b/node_modules/react-native-udp/android/build/intermediates/aapt_friendly_merged_manifests/debug/aapt/output-metadata.json
+new file mode 100644
+index 0000000..d1465ed
+--- /dev/null
++++ b/node_modules/react-native-udp/android/build/intermediates/aapt_friendly_merged_manifests/debug/aapt/output-metadata.json
+@@ -0,0 +1,18 @@
++{
++  "version": 3,
++  "artifactType": {
++    "type": "AAPT_FRIENDLY_MERGED_MANIFESTS",
++    "kind": "Directory"
++  },
++  "applicationId": "com.tradle.react",
++  "variantName": "debug",
++  "elements": [
++    {
++      "type": "SINGLE",
++      "filters": [],
++      "attributes": [],
++      "outputFile": "AndroidManifest.xml"
++    }
++  ],
++  "elementType": "File"
++}
+\ No newline at end of file
+diff --git a/node_modules/react-native-udp/android/build/intermediates/aar_main_jar/debug/classes.jar b/node_modules/react-native-udp/android/build/intermediates/aar_main_jar/debug/classes.jar
+new file mode 100644
+index 0000000..097bba2
+Binary files /dev/null and b/node_modules/react-native-udp/android/build/intermediates/aar_main_jar/debug/classes.jar differ
+diff --git a/node_modules/react-native-udp/android/build/intermediates/aar_metadata/debug/aar-metadata.properties b/node_modules/react-native-udp/android/build/intermediates/aar_metadata/debug/aar-metadata.properties
+new file mode 100644
+index 0000000..776557e
+--- /dev/null
++++ b/node_modules/react-native-udp/android/build/intermediates/aar_metadata/debug/aar-metadata.properties
+@@ -0,0 +1,5 @@
++aarFormatVersion=1.0
++aarMetadataVersion=1.0
++minCompileSdk=1
++minCompileSdkExtension=0
++minAndroidGradlePluginVersion=1.0.0
+diff --git a/node_modules/react-native-udp/android/build/intermediates/annotation_processor_list/debug/annotationProcessors.json b/node_modules/react-native-udp/android/build/intermediates/annotation_processor_list/debug/annotationProcessors.json
+new file mode 100644
+index 0000000..9e26dfe
+--- /dev/null
++++ b/node_modules/react-native-udp/android/build/intermediates/annotation_processor_list/debug/annotationProcessors.json
+@@ -0,0 +1 @@
++{}
+\ No newline at end of file
+diff --git a/node_modules/react-native-udp/android/build/intermediates/annotations_typedef_file/debug/typedefs.txt b/node_modules/react-native-udp/android/build/intermediates/annotations_typedef_file/debug/typedefs.txt
+new file mode 100644
+index 0000000..e69de29
+diff --git a/node_modules/react-native-udp/android/build/intermediates/compile_library_classes_jar/debug/classes.jar b/node_modules/react-native-udp/android/build/intermediates/compile_library_classes_jar/debug/classes.jar
+new file mode 100644
+index 0000000..0b259f8
+Binary files /dev/null and b/node_modules/react-native-udp/android/build/intermediates/compile_library_classes_jar/debug/classes.jar differ
+diff --git a/node_modules/react-native-udp/android/build/intermediates/compile_r_class_jar/debug/R.jar b/node_modules/react-native-udp/android/build/intermediates/compile_r_class_jar/debug/R.jar
+new file mode 100644
+index 0000000..b188c79
+Binary files /dev/null and b/node_modules/react-native-udp/android/build/intermediates/compile_r_class_jar/debug/R.jar differ
+diff --git a/node_modules/react-native-udp/android/build/intermediates/compile_symbol_list/debug/R.txt b/node_modules/react-native-udp/android/build/intermediates/compile_symbol_list/debug/R.txt
+new file mode 100644
+index 0000000..e69de29
+diff --git a/node_modules/react-native-udp/android/build/intermediates/incremental/debug-mergeJavaRes/merge-state b/node_modules/react-native-udp/android/build/intermediates/incremental/debug-mergeJavaRes/merge-state
+new file mode 100644
+index 0000000..1c983fc
+Binary files /dev/null and b/node_modules/react-native-udp/android/build/intermediates/incremental/debug-mergeJavaRes/merge-state differ
+diff --git a/node_modules/react-native-udp/android/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties b/node_modules/react-native-udp/android/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties
+new file mode 100644
+index 0000000..6e28c03
+--- /dev/null
++++ b/node_modules/react-native-udp/android/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties
+@@ -0,0 +1 @@
++#Tue Mar 05 21:59:36 PKT 2024
+diff --git a/node_modules/react-native-udp/android/build/intermediates/incremental/debug/packageDebugResources/merger.xml b/node_modules/react-native-udp/android/build/intermediates/incremental/debug/packageDebugResources/merger.xml
+new file mode 100644
+index 0000000..a88fb69
+--- /dev/null
++++ b/node_modules/react-native-udp/android/build/intermediates/incremental/debug/packageDebugResources/merger.xml
+@@ -0,0 +1,2 @@
++<?xml version="1.0" encoding="utf-8"?>
++<merger version="3"><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\rn-projects\Unblok-Wallet-updated-designe\unblok_wallet_Frontend\node_modules\react-native-udp\android\src\main\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\rn-projects\Unblok-Wallet-updated-designe\unblok_wallet_Frontend\node_modules\react-native-udp\android\src\main\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\rn-projects\Unblok-Wallet-updated-designe\unblok_wallet_Frontend\node_modules\react-native-udp\android\src\debug\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug" generated-set="debug$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\rn-projects\Unblok-Wallet-updated-designe\unblok_wallet_Frontend\node_modules\react-native-udp\android\src\debug\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\rn-projects\Unblok-Wallet-updated-designe\unblok_wallet_Frontend\node_modules\react-native-udp\android\build\generated\res\resValues\debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated" generated-set="generated$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\rn-projects\Unblok-Wallet-updated-designe\unblok_wallet_Frontend\node_modules\react-native-udp\android\build\generated\res\resValues\debug"/></dataSet><mergedItems/></merger>
+\ No newline at end of file
+diff --git a/node_modules/react-native-udp/android/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml b/node_modules/react-native-udp/android/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml
+new file mode 100644
+index 0000000..e9c0b69
+--- /dev/null
++++ b/node_modules/react-native-udp/android/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml
+@@ -0,0 +1,2 @@
++<?xml version="1.0" encoding="utf-8"?>
++<merger version="3"><dataSet config="main" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\rn-projects\Unblok-Wallet-updated-designe\unblok_wallet_Frontend\node_modules\react-native-udp\android\src\main\jniLibs"/></dataSet><dataSet config="debug" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\rn-projects\Unblok-Wallet-updated-designe\unblok_wallet_Frontend\node_modules\react-native-udp\android\src\debug\jniLibs"/></dataSet></merger>
+\ No newline at end of file
+diff --git a/node_modules/react-native-udp/android/build/intermediates/incremental/mergeDebugShaders/merger.xml b/node_modules/react-native-udp/android/build/intermediates/incremental/mergeDebugShaders/merger.xml
+new file mode 100644
+index 0000000..b5a580f
+--- /dev/null
++++ b/node_modules/react-native-udp/android/build/intermediates/incremental/mergeDebugShaders/merger.xml
+@@ -0,0 +1,2 @@
++<?xml version="1.0" encoding="utf-8"?>
++<merger version="3"><dataSet config="main" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\rn-projects\Unblok-Wallet-updated-designe\unblok_wallet_Frontend\node_modules\react-native-udp\android\src\main\shaders"/></dataSet><dataSet config="debug" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\rn-projects\Unblok-Wallet-updated-designe\unblok_wallet_Frontend\node_modules\react-native-udp\android\src\debug\shaders"/></dataSet></merger>
+\ No newline at end of file
+diff --git a/node_modules/react-native-udp/android/build/intermediates/incremental/packageDebugAssets/merger.xml b/node_modules/react-native-udp/android/build/intermediates/incremental/packageDebugAssets/merger.xml
+new file mode 100644
+index 0000000..2ea0b47
+--- /dev/null
++++ b/node_modules/react-native-udp/android/build/intermediates/incremental/packageDebugAssets/merger.xml
+@@ -0,0 +1,2 @@
++<?xml version="1.0" encoding="utf-8"?>
++<merger version="3"><dataSet config="main" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\rn-projects\Unblok-Wallet-updated-designe\unblok_wallet_Frontend\node_modules\react-native-udp\android\src\main\assets"/></dataSet><dataSet config="debug" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\rn-projects\Unblok-Wallet-updated-designe\unblok_wallet_Frontend\node_modules\react-native-udp\android\src\debug\assets"/></dataSet><dataSet config="generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\rn-projects\Unblok-Wallet-updated-designe\unblok_wallet_Frontend\node_modules\react-native-udp\android\build\intermediates\shader_assets\debug\out"/></dataSet></merger>
+\ No newline at end of file
+diff --git a/node_modules/react-native-udp/android/build/intermediates/javac/debug/classes/com/tradle/react/BuildConfig.class b/node_modules/react-native-udp/android/build/intermediates/javac/debug/classes/com/tradle/react/BuildConfig.class
+new file mode 100644
+index 0000000..5d04e51
+Binary files /dev/null and b/node_modules/react-native-udp/android/build/intermediates/javac/debug/classes/com/tradle/react/BuildConfig.class differ
+diff --git a/node_modules/react-native-udp/android/build/intermediates/javac/debug/classes/com/tradle/react/UdpErrorUtil.class b/node_modules/react-native-udp/android/build/intermediates/javac/debug/classes/com/tradle/react/UdpErrorUtil.class
+new file mode 100644
+index 0000000..441dd96
+Binary files /dev/null and b/node_modules/react-native-udp/android/build/intermediates/javac/debug/classes/com/tradle/react/UdpErrorUtil.class differ
+diff --git a/node_modules/react-native-udp/android/build/intermediates/javac/debug/classes/com/tradle/react/UdpReceiverTask$OnDataReceivedListener.class b/node_modules/react-native-udp/android/build/intermediates/javac/debug/classes/com/tradle/react/UdpReceiverTask$OnDataReceivedListener.class
+new file mode 100644
+index 0000000..e100dd7
+Binary files /dev/null and b/node_modules/react-native-udp/android/build/intermediates/javac/debug/classes/com/tradle/react/UdpReceiverTask$OnDataReceivedListener.class differ
+diff --git a/node_modules/react-native-udp/android/build/intermediates/javac/debug/classes/com/tradle/react/UdpReceiverTask.class b/node_modules/react-native-udp/android/build/intermediates/javac/debug/classes/com/tradle/react/UdpReceiverTask.class
+new file mode 100644
+index 0000000..a1cff29
+Binary files /dev/null and b/node_modules/react-native-udp/android/build/intermediates/javac/debug/classes/com/tradle/react/UdpReceiverTask.class differ
+diff --git a/node_modules/react-native-udp/android/build/intermediates/javac/debug/classes/com/tradle/react/UdpSenderTask$OnDataSentListener.class b/node_modules/react-native-udp/android/build/intermediates/javac/debug/classes/com/tradle/react/UdpSenderTask$OnDataSentListener.class
+new file mode 100644
+index 0000000..1271d3b
+Binary files /dev/null and b/node_modules/react-native-udp/android/build/intermediates/javac/debug/classes/com/tradle/react/UdpSenderTask$OnDataSentListener.class differ
+diff --git a/node_modules/react-native-udp/android/build/intermediates/javac/debug/classes/com/tradle/react/UdpSenderTask$SenderPacket.class b/node_modules/react-native-udp/android/build/intermediates/javac/debug/classes/com/tradle/react/UdpSenderTask$SenderPacket.class
+new file mode 100644
+index 0000000..1ba6a93
+Binary files /dev/null and b/node_modules/react-native-udp/android/build/intermediates/javac/debug/classes/com/tradle/react/UdpSenderTask$SenderPacket.class differ
+diff --git a/node_modules/react-native-udp/android/build/intermediates/javac/debug/classes/com/tradle/react/UdpSenderTask.class b/node_modules/react-native-udp/android/build/intermediates/javac/debug/classes/com/tradle/react/UdpSenderTask.class
+new file mode 100644
+index 0000000..ef57f5a
+Binary files /dev/null and b/node_modules/react-native-udp/android/build/intermediates/javac/debug/classes/com/tradle/react/UdpSenderTask.class differ
+diff --git a/node_modules/react-native-udp/android/build/intermediates/javac/debug/classes/com/tradle/react/UdpSocketClient$Builder.class b/node_modules/react-native-udp/android/build/intermediates/javac/debug/classes/com/tradle/react/UdpSocketClient$Builder.class
+new file mode 100644
+index 0000000..6264480
+Binary files /dev/null and b/node_modules/react-native-udp/android/build/intermediates/javac/debug/classes/com/tradle/react/UdpSocketClient$Builder.class differ
+diff --git a/node_modules/react-native-udp/android/build/intermediates/javac/debug/classes/com/tradle/react/UdpSocketClient$OnDataReceivedListener.class b/node_modules/react-native-udp/android/build/intermediates/javac/debug/classes/com/tradle/react/UdpSocketClient$OnDataReceivedListener.class
+new file mode 100644
+index 0000000..76c00a1
+Binary files /dev/null and b/node_modules/react-native-udp/android/build/intermediates/javac/debug/classes/com/tradle/react/UdpSocketClient$OnDataReceivedListener.class differ
+diff --git a/node_modules/react-native-udp/android/build/intermediates/javac/debug/classes/com/tradle/react/UdpSocketClient$OnRuntimeExceptionListener.class b/node_modules/react-native-udp/android/build/intermediates/javac/debug/classes/com/tradle/react/UdpSocketClient$OnRuntimeExceptionListener.class
+new file mode 100644
+index 0000000..2346a24
+Binary files /dev/null and b/node_modules/react-native-udp/android/build/intermediates/javac/debug/classes/com/tradle/react/UdpSocketClient$OnRuntimeExceptionListener.class differ
+diff --git a/node_modules/react-native-udp/android/build/intermediates/javac/debug/classes/com/tradle/react/UdpSocketClient.class b/node_modules/react-native-udp/android/build/intermediates/javac/debug/classes/com/tradle/react/UdpSocketClient.class
+new file mode 100644
+index 0000000..babca53
+Binary files /dev/null and b/node_modules/react-native-udp/android/build/intermediates/javac/debug/classes/com/tradle/react/UdpSocketClient.class differ
+diff --git a/node_modules/react-native-udp/android/build/intermediates/javac/debug/classes/com/tradle/react/UdpSockets$1.class b/node_modules/react-native-udp/android/build/intermediates/javac/debug/classes/com/tradle/react/UdpSockets$1.class
+new file mode 100644
+index 0000000..7657fa0
+Binary files /dev/null and b/node_modules/react-native-udp/android/build/intermediates/javac/debug/classes/com/tradle/react/UdpSockets$1.class differ
+diff --git a/node_modules/react-native-udp/android/build/intermediates/javac/debug/classes/com/tradle/react/UdpSockets$2.class b/node_modules/react-native-udp/android/build/intermediates/javac/debug/classes/com/tradle/react/UdpSockets$2.class
+new file mode 100644
+index 0000000..473c5c5
+Binary files /dev/null and b/node_modules/react-native-udp/android/build/intermediates/javac/debug/classes/com/tradle/react/UdpSockets$2.class differ
+diff --git a/node_modules/react-native-udp/android/build/intermediates/javac/debug/classes/com/tradle/react/UdpSockets$3.class b/node_modules/react-native-udp/android/build/intermediates/javac/debug/classes/com/tradle/react/UdpSockets$3.class
+new file mode 100644
+index 0000000..36cb0af
+Binary files /dev/null and b/node_modules/react-native-udp/android/build/intermediates/javac/debug/classes/com/tradle/react/UdpSockets$3.class differ
+diff --git a/node_modules/react-native-udp/android/build/intermediates/javac/debug/classes/com/tradle/react/UdpSockets$4.class b/node_modules/react-native-udp/android/build/intermediates/javac/debug/classes/com/tradle/react/UdpSockets$4.class
+new file mode 100644
+index 0000000..cdfc7ae
+Binary files /dev/null and b/node_modules/react-native-udp/android/build/intermediates/javac/debug/classes/com/tradle/react/UdpSockets$4.class differ
+diff --git a/node_modules/react-native-udp/android/build/intermediates/javac/debug/classes/com/tradle/react/UdpSockets$5.class b/node_modules/react-native-udp/android/build/intermediates/javac/debug/classes/com/tradle/react/UdpSockets$5.class
+new file mode 100644
+index 0000000..a506087
+Binary files /dev/null and b/node_modules/react-native-udp/android/build/intermediates/javac/debug/classes/com/tradle/react/UdpSockets$5.class differ
+diff --git a/node_modules/react-native-udp/android/build/intermediates/javac/debug/classes/com/tradle/react/UdpSockets$6.class b/node_modules/react-native-udp/android/build/intermediates/javac/debug/classes/com/tradle/react/UdpSockets$6.class
+new file mode 100644
+index 0000000..a239d47
+Binary files /dev/null and b/node_modules/react-native-udp/android/build/intermediates/javac/debug/classes/com/tradle/react/UdpSockets$6.class differ
+diff --git a/node_modules/react-native-udp/android/build/intermediates/javac/debug/classes/com/tradle/react/UdpSockets$7.class b/node_modules/react-native-udp/android/build/intermediates/javac/debug/classes/com/tradle/react/UdpSockets$7.class
+new file mode 100644
+index 0000000..2d5a56e
+Binary files /dev/null and b/node_modules/react-native-udp/android/build/intermediates/javac/debug/classes/com/tradle/react/UdpSockets$7.class differ
+diff --git a/node_modules/react-native-udp/android/build/intermediates/javac/debug/classes/com/tradle/react/UdpSockets$8.class b/node_modules/react-native-udp/android/build/intermediates/javac/debug/classes/com/tradle/react/UdpSockets$8.class
+new file mode 100644
+index 0000000..89ff8b8
+Binary files /dev/null and b/node_modules/react-native-udp/android/build/intermediates/javac/debug/classes/com/tradle/react/UdpSockets$8.class differ
+diff --git a/node_modules/react-native-udp/android/build/intermediates/javac/debug/classes/com/tradle/react/UdpSockets$9.class b/node_modules/react-native-udp/android/build/intermediates/javac/debug/classes/com/tradle/react/UdpSockets$9.class
+new file mode 100644
+index 0000000..41052d8
+Binary files /dev/null and b/node_modules/react-native-udp/android/build/intermediates/javac/debug/classes/com/tradle/react/UdpSockets$9.class differ
+diff --git a/node_modules/react-native-udp/android/build/intermediates/javac/debug/classes/com/tradle/react/UdpSockets.class b/node_modules/react-native-udp/android/build/intermediates/javac/debug/classes/com/tradle/react/UdpSockets.class
+new file mode 100644
+index 0000000..5c49588
+Binary files /dev/null and b/node_modules/react-native-udp/android/build/intermediates/javac/debug/classes/com/tradle/react/UdpSockets.class differ
+diff --git a/node_modules/react-native-udp/android/build/intermediates/javac/debug/classes/com/tradle/react/UdpSocketsModule.class b/node_modules/react-native-udp/android/build/intermediates/javac/debug/classes/com/tradle/react/UdpSocketsModule.class
+new file mode 100644
+index 0000000..d081718
+Binary files /dev/null and b/node_modules/react-native-udp/android/build/intermediates/javac/debug/classes/com/tradle/react/UdpSocketsModule.class differ
+diff --git a/node_modules/react-native-udp/android/build/intermediates/local_only_symbol_list/debug/R-def.txt b/node_modules/react-native-udp/android/build/intermediates/local_only_symbol_list/debug/R-def.txt
+new file mode 100644
+index 0000000..78ac5b8
+--- /dev/null
++++ b/node_modules/react-native-udp/android/build/intermediates/local_only_symbol_list/debug/R-def.txt
+@@ -0,0 +1,2 @@
++R_DEF: Internal format may change without notice
++local
+diff --git a/node_modules/react-native-udp/android/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt b/node_modules/react-native-udp/android/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt
+new file mode 100644
+index 0000000..b0ca48d
+--- /dev/null
++++ b/node_modules/react-native-udp/android/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt
+@@ -0,0 +1,20 @@
++1<?xml version="1.0" encoding="utf-8"?>
++2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
++3    package="com.tradle.react" >
++4
++5    <uses-sdk android:minSdkVersion="16" />
++6
++7    <uses-permission android:name="android.permission.INTERNET" />
++7-->D:\rn-projects\Unblok-Wallet-updated-designe\unblok_wallet_Frontend\node_modules\react-native-udp\android\src\main\AndroidManifest.xml:4:5-66
++7-->D:\rn-projects\Unblok-Wallet-updated-designe\unblok_wallet_Frontend\node_modules\react-native-udp\android\src\main\AndroidManifest.xml:4:22-64
++8    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
++8-->D:\rn-projects\Unblok-Wallet-updated-designe\unblok_wallet_Frontend\node_modules\react-native-udp\android\src\main\AndroidManifest.xml:5:5-78
++8-->D:\rn-projects\Unblok-Wallet-updated-designe\unblok_wallet_Frontend\node_modules\react-native-udp\android\src\main\AndroidManifest.xml:5:22-76
++9    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
++9-->D:\rn-projects\Unblok-Wallet-updated-designe\unblok_wallet_Frontend\node_modules\react-native-udp\android\src\main\AndroidManifest.xml:6:5-75
++9-->D:\rn-projects\Unblok-Wallet-updated-designe\unblok_wallet_Frontend\node_modules\react-native-udp\android\src\main\AndroidManifest.xml:6:22-73
++10    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
++10-->D:\rn-projects\Unblok-Wallet-updated-designe\unblok_wallet_Frontend\node_modules\react-native-udp\android\src\main\AndroidManifest.xml:7:5-85
++10-->D:\rn-projects\Unblok-Wallet-updated-designe\unblok_wallet_Frontend\node_modules\react-native-udp\android\src\main\AndroidManifest.xml:7:22-83
++11
++12</manifest>
+diff --git a/node_modules/react-native-udp/android/build/intermediates/merged_java_res/debug/feature-react-native-udp.jar b/node_modules/react-native-udp/android/build/intermediates/merged_java_res/debug/feature-react-native-udp.jar
+new file mode 100644
+index 0000000..15cb0ec
+Binary files /dev/null and b/node_modules/react-native-udp/android/build/intermediates/merged_java_res/debug/feature-react-native-udp.jar differ
+diff --git a/node_modules/react-native-udp/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml b/node_modules/react-native-udp/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml
+new file mode 100644
+index 0000000..ed2ab22
+--- /dev/null
++++ b/node_modules/react-native-udp/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml
+@@ -0,0 +1,12 @@
++<?xml version="1.0" encoding="utf-8"?>
++<manifest xmlns:android="http://schemas.android.com/apk/res/android"
++    package="com.tradle.react" >
++
++    <uses-sdk android:minSdkVersion="16" />
++
++    <uses-permission android:name="android.permission.INTERNET" />
++    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
++    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
++    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
++
++</manifest>
+\ No newline at end of file
+diff --git a/node_modules/react-native-udp/android/build/intermediates/navigation_json/debug/navigation.json b/node_modules/react-native-udp/android/build/intermediates/navigation_json/debug/navigation.json
+new file mode 100644
+index 0000000..0637a08
+--- /dev/null
++++ b/node_modules/react-native-udp/android/build/intermediates/navigation_json/debug/navigation.json
+@@ -0,0 +1 @@
++[]
+\ No newline at end of file
+diff --git a/node_modules/react-native-udp/android/build/intermediates/runtime_library_classes_jar/debug/classes.jar b/node_modules/react-native-udp/android/build/intermediates/runtime_library_classes_jar/debug/classes.jar
+new file mode 100644
+index 0000000..709ef89
+Binary files /dev/null and b/node_modules/react-native-udp/android/build/intermediates/runtime_library_classes_jar/debug/classes.jar differ
+diff --git a/node_modules/react-native-udp/android/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt b/node_modules/react-native-udp/android/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt
+new file mode 100644
+index 0000000..782e8ad
+--- /dev/null
++++ b/node_modules/react-native-udp/android/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt
+@@ -0,0 +1 @@
++com.tradle.react
+diff --git a/node_modules/react-native-udp/android/build/outputs/aar/react-native-udp-debug.aar b/node_modules/react-native-udp/android/build/outputs/aar/react-native-udp-debug.aar
+new file mode 100644
+index 0000000..1fdd736
+Binary files /dev/null and b/node_modules/react-native-udp/android/build/outputs/aar/react-native-udp-debug.aar differ
+diff --git a/node_modules/react-native-udp/android/build/outputs/logs/manifest-merger-debug-report.txt b/node_modules/react-native-udp/android/build/outputs/logs/manifest-merger-debug-report.txt
+new file mode 100644
+index 0000000..96de577
+--- /dev/null
++++ b/node_modules/react-native-udp/android/build/outputs/logs/manifest-merger-debug-report.txt
+@@ -0,0 +1,33 @@
++-- Merging decision tree log ---
++manifest
++ADDED from D:\rn-projects\Unblok-Wallet-updated-designe\unblok_wallet_Frontend\node_modules\react-native-udp\android\src\main\AndroidManifest.xml:2:1-8:12
++INJECTED from D:\rn-projects\Unblok-Wallet-updated-designe\unblok_wallet_Frontend\node_modules\react-native-udp\android\src\main\AndroidManifest.xml:2:1-8:12
++	package
++		ADDED from D:\rn-projects\Unblok-Wallet-updated-designe\unblok_wallet_Frontend\node_modules\react-native-udp\android\src\main\AndroidManifest.xml:3:5-31
++		INJECTED from D:\rn-projects\Unblok-Wallet-updated-designe\unblok_wallet_Frontend\node_modules\react-native-udp\android\src\main\AndroidManifest.xml
++	xmlns:android
++		ADDED from D:\rn-projects\Unblok-Wallet-updated-designe\unblok_wallet_Frontend\node_modules\react-native-udp\android\src\main\AndroidManifest.xml:2:11-69
++uses-permission#android.permission.INTERNET
++ADDED from D:\rn-projects\Unblok-Wallet-updated-designe\unblok_wallet_Frontend\node_modules\react-native-udp\android\src\main\AndroidManifest.xml:4:5-66
++	android:name
++		ADDED from D:\rn-projects\Unblok-Wallet-updated-designe\unblok_wallet_Frontend\node_modules\react-native-udp\android\src\main\AndroidManifest.xml:4:22-64
++uses-permission#android.permission.ACCESS_NETWORK_STATE
++ADDED from D:\rn-projects\Unblok-Wallet-updated-designe\unblok_wallet_Frontend\node_modules\react-native-udp\android\src\main\AndroidManifest.xml:5:5-78
++	android:name
++		ADDED from D:\rn-projects\Unblok-Wallet-updated-designe\unblok_wallet_Frontend\node_modules\react-native-udp\android\src\main\AndroidManifest.xml:5:22-76
++uses-permission#android.permission.ACCESS_WIFI_STATE
++ADDED from D:\rn-projects\Unblok-Wallet-updated-designe\unblok_wallet_Frontend\node_modules\react-native-udp\android\src\main\AndroidManifest.xml:6:5-75
++	android:name
++		ADDED from D:\rn-projects\Unblok-Wallet-updated-designe\unblok_wallet_Frontend\node_modules\react-native-udp\android\src\main\AndroidManifest.xml:6:22-73
++uses-permission#android.permission.CHANGE_WIFI_MULTICAST_STATE
++ADDED from D:\rn-projects\Unblok-Wallet-updated-designe\unblok_wallet_Frontend\node_modules\react-native-udp\android\src\main\AndroidManifest.xml:7:5-85
++	android:name
++		ADDED from D:\rn-projects\Unblok-Wallet-updated-designe\unblok_wallet_Frontend\node_modules\react-native-udp\android\src\main\AndroidManifest.xml:7:22-83
++uses-sdk
++INJECTED from D:\rn-projects\Unblok-Wallet-updated-designe\unblok_wallet_Frontend\node_modules\react-native-udp\android\src\main\AndroidManifest.xml reason: use-sdk injection requested
++INJECTED from D:\rn-projects\Unblok-Wallet-updated-designe\unblok_wallet_Frontend\node_modules\react-native-udp\android\src\main\AndroidManifest.xml
++INJECTED from D:\rn-projects\Unblok-Wallet-updated-designe\unblok_wallet_Frontend\node_modules\react-native-udp\android\src\main\AndroidManifest.xml
++	android:targetSdkVersion
++		INJECTED from D:\rn-projects\Unblok-Wallet-updated-designe\unblok_wallet_Frontend\node_modules\react-native-udp\android\src\main\AndroidManifest.xml
++	android:minSdkVersion
++		INJECTED from D:\rn-projects\Unblok-Wallet-updated-designe\unblok_wallet_Frontend\node_modules\react-native-udp\android\src\main\AndroidManifest.xml
+diff --git a/node_modules/react-native-udp/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/UdpErrorUtil.class.uniqueId13 b/node_modules/react-native-udp/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/UdpErrorUtil.class.uniqueId13
+new file mode 100644
+index 0000000..b93c3e3
+Binary files /dev/null and b/node_modules/react-native-udp/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/UdpErrorUtil.class.uniqueId13 differ
+diff --git a/node_modules/react-native-udp/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/UdpSocketClient$Builder.class.uniqueId11 b/node_modules/react-native-udp/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/UdpSocketClient$Builder.class.uniqueId11
+new file mode 100644
+index 0000000..6264480
+Binary files /dev/null and b/node_modules/react-native-udp/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/UdpSocketClient$Builder.class.uniqueId11 differ
+diff --git a/node_modules/react-native-udp/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/UdpSocketClient$OnDataReceivedListener.class.uniqueId4 b/node_modules/react-native-udp/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/UdpSocketClient$OnDataReceivedListener.class.uniqueId4
+new file mode 100644
+index 0000000..76c00a1
+Binary files /dev/null and b/node_modules/react-native-udp/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/UdpSocketClient$OnDataReceivedListener.class.uniqueId4 differ
+diff --git a/node_modules/react-native-udp/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/UdpSocketClient$OnRuntimeExceptionListener.class.uniqueId12 b/node_modules/react-native-udp/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/UdpSocketClient$OnRuntimeExceptionListener.class.uniqueId12
+new file mode 100644
+index 0000000..2346a24
+Binary files /dev/null and b/node_modules/react-native-udp/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/UdpSocketClient$OnRuntimeExceptionListener.class.uniqueId12 differ
+diff --git a/node_modules/react-native-udp/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/UdpSocketClient.class.uniqueId6 b/node_modules/react-native-udp/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/UdpSocketClient.class.uniqueId6
+new file mode 100644
+index 0000000..babca53
+Binary files /dev/null and b/node_modules/react-native-udp/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/UdpSocketClient.class.uniqueId6 differ
+diff --git a/node_modules/react-native-udp/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/UdpSockets$1.class.uniqueId2 b/node_modules/react-native-udp/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/UdpSockets$1.class.uniqueId2
+new file mode 100644
+index 0000000..7657fa0
+Binary files /dev/null and b/node_modules/react-native-udp/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/UdpSockets$1.class.uniqueId2 differ
+diff --git a/node_modules/react-native-udp/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/UdpSockets$2.class.uniqueId5 b/node_modules/react-native-udp/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/UdpSockets$2.class.uniqueId5
+new file mode 100644
+index 0000000..473c5c5
+Binary files /dev/null and b/node_modules/react-native-udp/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/UdpSockets$2.class.uniqueId5 differ
+diff --git a/node_modules/react-native-udp/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/UdpSockets$3.class.uniqueId8 b/node_modules/react-native-udp/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/UdpSockets$3.class.uniqueId8
+new file mode 100644
+index 0000000..36cb0af
+Binary files /dev/null and b/node_modules/react-native-udp/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/UdpSockets$3.class.uniqueId8 differ
+diff --git a/node_modules/react-native-udp/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/UdpSockets$4.class.uniqueId14 b/node_modules/react-native-udp/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/UdpSockets$4.class.uniqueId14
+new file mode 100644
+index 0000000..cdfc7ae
+Binary files /dev/null and b/node_modules/react-native-udp/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/UdpSockets$4.class.uniqueId14 differ
+diff --git a/node_modules/react-native-udp/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/UdpSockets$5.class.uniqueId1 b/node_modules/react-native-udp/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/UdpSockets$5.class.uniqueId1
+new file mode 100644
+index 0000000..a506087
+Binary files /dev/null and b/node_modules/react-native-udp/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/UdpSockets$5.class.uniqueId1 differ
+diff --git a/node_modules/react-native-udp/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/UdpSockets$6.class.uniqueId0 b/node_modules/react-native-udp/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/UdpSockets$6.class.uniqueId0
+new file mode 100644
+index 0000000..a239d47
+Binary files /dev/null and b/node_modules/react-native-udp/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/UdpSockets$6.class.uniqueId0 differ
+diff --git a/node_modules/react-native-udp/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/UdpSockets$7.class.uniqueId3 b/node_modules/react-native-udp/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/UdpSockets$7.class.uniqueId3
+new file mode 100644
+index 0000000..2d5a56e
+Binary files /dev/null and b/node_modules/react-native-udp/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/UdpSockets$7.class.uniqueId3 differ
+diff --git a/node_modules/react-native-udp/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/UdpSockets$8.class.uniqueId10 b/node_modules/react-native-udp/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/UdpSockets$8.class.uniqueId10
+new file mode 100644
+index 0000000..89ff8b8
+Binary files /dev/null and b/node_modules/react-native-udp/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/UdpSockets$8.class.uniqueId10 differ
+diff --git a/node_modules/react-native-udp/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/UdpSockets$9.class.uniqueId7 b/node_modules/react-native-udp/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/UdpSockets$9.class.uniqueId7
+new file mode 100644
+index 0000000..41052d8
+Binary files /dev/null and b/node_modules/react-native-udp/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/UdpSockets$9.class.uniqueId7 differ
+diff --git a/node_modules/react-native-udp/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/UdpSockets.class.uniqueId9 b/node_modules/react-native-udp/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/UdpSockets.class.uniqueId9
+new file mode 100644
+index 0000000..5c49588
+Binary files /dev/null and b/node_modules/react-native-udp/android/build/tmp/compileDebugJavaWithJavac/compileTransaction/stash-dir/UdpSockets.class.uniqueId9 differ
+diff --git a/node_modules/react-native-udp/android/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin b/node_modules/react-native-udp/android/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin
+new file mode 100644
+index 0000000..9e7d7a2
+Binary files /dev/null and b/node_modules/react-native-udp/android/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin differ
+diff --git a/node_modules/react-native-udp/android/src/main/java/com/tradle/react/UdpSocketClient.java b/node_modules/react-native-udp/android/src/main/java/com/tradle/react/UdpSocketClient.java
+index 15d6526..510f06d 100644
+--- a/node_modules/react-native-udp/android/src/main/java/com/tradle/react/UdpSocketClient.java
++++ b/node_modules/react-native-udp/android/src/main/java/com/tradle/react/UdpSocketClient.java
+@@ -8,7 +8,7 @@
+ package com.tradle.react;
+ 
+ import android.os.AsyncTask;
+-import android.support.annotation.Nullable;
++import androidx.annotation.Nullable;
+ import android.util.Base64;
+ import android.util.Pair;
+ 
+diff --git a/node_modules/react-native-udp/android/src/main/java/com/tradle/react/UdpSockets.java b/node_modules/react-native-udp/android/src/main/java/com/tradle/react/UdpSockets.java
+index a0b7c46..2768252 100644
+--- a/node_modules/react-native-udp/android/src/main/java/com/tradle/react/UdpSockets.java
++++ b/node_modules/react-native-udp/android/src/main/java/com/tradle/react/UdpSockets.java
+@@ -9,7 +9,7 @@ package com.tradle.react;
+ 
+ import android.content.Context;
+ import android.net.wifi.WifiManager;
+-import android.support.annotation.Nullable;
++import androidx.annotation.Nullable;
+ import android.util.SparseArray;
+ import android.os.AsyncTask;
+ 
