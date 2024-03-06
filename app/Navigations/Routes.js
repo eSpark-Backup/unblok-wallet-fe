@@ -103,7 +103,10 @@ const Routes = () => {
         <DappWeb />
       ) : ( */}
       <themeContext.Provider value={mode === true ? theme.dark : theme.light}>
-        <NavigationContainer theme={mode === true ? DarkTheme : DefaultTheme}  > {/** //removed linking object linking={linking} */}
+        <NavigationContainer 
+        theme={mode === true ? DarkTheme : DefaultTheme} 
+        // linking={linking} //! have to remove this for not to crash
+         >
           <StackNavigator  /> 
         </NavigationContainer>
       </themeContext.Provider>
