@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Row>
+        <Key
+            app:keyEdgeFlags="left"
+            app:keyIcon="@drawable/ic_emoji_emotions_outline_vector"/>
+        <Key app:keyIcon="@drawable/ic_emoji_emotions_outline_vector" />
+        <Key app:keyIcon="@drawable/ic_emoji_emotions_outline_vector"/>
+        <Key app:keyIcon="@drawable/ic_emoji_emotions_outline_vector" />
+<!--        <Key app:keyLabel="•" />-->
+<!--        <Key app:keyLabel="°" />-->
+<!--        <Key app:keyLabel="`" />-->
+<!--        <Key app:keyLabel="´" />-->
+<!--        <Key app:keyLabel="{" />-->
+        <Key
+            app:keyEdgeFlags="right"
+            app:keyIcon="@drawable/ic_emoji_emotions_outline_vector" />
+    </Row>
+</Keyboard>

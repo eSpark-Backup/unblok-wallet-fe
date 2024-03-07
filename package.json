@@ -20,7 +20,7 @@
     "release": "rm -rf ./android/app/src/main/res/drawable-* \n  rm -rf ./android/app/src/main/res/raw \n cd android \n ./gradlew clean \n ./gradlew assembleRelease",
     "postjpx": "npx jetify",
     "postinstall": "patch-package && node_modules/.bin/rn-nodeify --install crypto --hack",
-    "release-build": "react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/build/intermediates/res/merged/release/ && rm -rf android/app/src/main/res/drawable-* && rm -rf android/app/src/main/res/raw/* && cd android && ./gradlew assembleRelease && cd .."
+    "release-build": "react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/build/intermediates/res/merged/release/ && rm -rf android/app/src/main/res/drawable-* && rm -rf android/app/src/main/res/raw/* && cd android && .\\gradlew assembleRelease && cd .."
   },
   "dependencies": {
     "@coingrig/core": "^1.3.2",

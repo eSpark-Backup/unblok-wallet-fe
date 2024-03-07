@@ -1,0 +1,173 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Existing layout code... -->
+    <ImageButton
+        android:id="@+id/ethereum_logo"
+        style="?attr/suggestionWordStyle"
+        android:layout_width="@dimen/config_suggestions_strip_edge_key_width"
+        android:layout_height="36dp"
+        android:layout_marginLeft="9dp"
+        android:src="@drawable/ethereum_blue_logo" />
+
+    <LinearLayout
+        android:id="@+id/suggestions_strip"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/config_suggestions_strip_horizontal_margin"
+        android:layout_marginRight="@dimen/config_suggestions_strip_horizontal_margin"
+        android:hapticFeedbackEnabled="false"
+        android:orientation="horizontal"
+        android:soundEffectsEnabled="false"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/search_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/config_suggestions_strip_horizontal_margin"
+        android:layout_marginRight="@dimen/config_suggestions_strip_horizontal_margin"
+        android:hapticFeedbackEnabled="false"
+        android:orientation="horizontal"
+        android:soundEffectsEnabled="false"
+        android:visibility="gone">
+
+        <EditText
+            android:id="@+id/search_edit_text"
+            style="?attr/suggestionWordStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/config_suggestions_strip_horizontal_margin"
+            android:layout_marginRight="@dimen/config_suggestions_strip_horizontal_margin"
+            android:autofillHints=""
+            android:ems="10"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:hint="Search GIF's"
+            android:inputType="textMultiLine"
+            android:maxHeight="70dp"
+            android:minHeight="48dp"
+            android:padding="10dp"
+            android:paddingStart="40dp"
+            android:paddingEnd="40dp"
+            android:textSize="17sp"
+            android:verticalScrollbarPosition="defaultPosition" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/important_notice_strip"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/config_suggestions_strip_horizontal_margin"
+        android:layout_marginRight="@dimen/config_suggestions_strip_horizontal_margin"
+        android:hapticFeedbackEnabled="false"
+        android:orientation="horizontal"
+        android:soundEffectsEnabled="false">
+
+        <TextView
+            android:id="@+id/important_notice_title"
+            style="?attr/suggestionWordStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="6sp"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <!--    <LinearLayout-->
+    <!--        android:id="@+id/important_notice_strip"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent"-->
+    <!--        android:layout_marginLeft="@dimen/config_suggestions_strip_horizontal_margin"-->
+    <!--        android:layout_marginRight="@dimen/config_suggestions_strip_horizontal_margin"-->
+    <!--        android:hapticFeedbackEnabled="false"-->
+    <!--        android:orientation="horizontal"-->
+    <!--        android:soundEffectsEnabled="false">-->
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/important_notice_title"-->
+    <!--            style="?attr/suggestionWordStyle"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="match_parent"-->
+    <!--            android:padding="6sp"-->
+    <!--            android:textSize="16sp" />-->
+    <!--    </LinearLayout>-->
+
+    <LinearLayout
+        android:id="@+id/icon_bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="4dp"
+        android:hapticFeedbackEnabled="false"
+        android:orientation="horizontal"
+        android:soundEffectsEnabled="false"
+        android:visibility="gone">
+
+        <ImageButton
+            android:id="@+id/icon_etherum"
+            style="?attr/suggestionWordStyle"
+            android:layout_width="@dimen/config_suggestions_strip_edge_key_width"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ethereum_blue_logo" />
+
+        <ImageButton
+            android:id="@+id/wallet"
+            style="?attr/suggestionWordStyle"
+            android:layout_width="@dimen/config_suggestions_strip_edge_key_width"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:src="@drawable/ic_wallet" />
+
+        <ImageButton
+            android:id="@+id/dapps"
+            style="?attr/suggestionWordStyle"
+            android:layout_width="@dimen/config_suggestions_strip_edge_key_width"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:src="@drawable/ic_dapps" />
+
+        <ImageButton
+            android:id="@+id/clipboard"
+            style="?attr/suggestionWordStyle"
+            android:layout_width="@dimen/config_suggestions_strip_edge_key_width"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:src="@drawable/ic_clipboard" />
+
+        <ImageButton
+            android:id="@+id/gif"
+            style="?attr/suggestionWordStyle"
+            android:layout_width="@dimen/config_suggestions_strip_edge_key_width"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:src="@drawable/ic_gif" />
+
+        <ImageButton
+            android:id="@+id/sticker"
+            style="?attr/suggestionWordStyle"
+            android:layout_width="@dimen/config_suggestions_strip_edge_key_width"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:src="@drawable/ic_sticker" />
+
+        <!--        <ImageButton-->
+        <!--            android:id="@+id/microphone"-->
+        <!--            style="?attr/suggestionWordStyle"-->
+        <!--            android:layout_width="@dimen/config_suggestions_strip_edge_key_width"-->
+        <!--            android:layout_height="fill_parent"-->
+        <!--            android:layout_weight="1"-->
+        <!--            android:src="@drawable/ic_microphone" />-->
+
+    </LinearLayout>
+
+    <!-- Existing voice key -->
+    <ImageButton
+        android:id="@+id/suggestions_strip_voice_key"
+        style="?attr/suggestionWordStyle"
+        android:layout_width="@dimen/config_suggestions_strip_edge_key_width"
+        android:layout_height="fill_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/spoken_description_mic" />
+
+</merge>

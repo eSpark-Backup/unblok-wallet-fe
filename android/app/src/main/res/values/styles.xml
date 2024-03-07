@@ -1,0 +1,41 @@
+<resources>
+
+    <!-- <style name="AppTheme" parent="AppTheme.Base" /> -->
+
+
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <!--设置透明背景-->
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="AppTheme.Launcher" parent="Theme.AppCompat.DayNight.NoActionBar" >
+    <!-- <item name="android:windowBackground">@drawable/launch_screen</item> -->
+    <item name="android:statusBarColor">@color/splash_status_bar_color</item>
+    <item name="android:windowLightStatusBar">true</item>
+    <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="MyKeyboard">
+        <item name="itemTextAppearance">?attr/itemTextAppearance</item>
+    </style>
+    <style name="AppTheme_Dark" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <style name="MyKeyboardView" parent="MyKeyboard">
+        <item name="keyTextSize">@dimen/keyboard_text_size</item>
+    </style>
+
+    <style name="MyKeyboardViewPopup" parent="MyKeyboard">
+        <item name="keyTextSize">@dimen/preview_text_size</item>
+    </style>
+
+    <style name="MyKeyboard.Alert" parent="Theme.Material3.Light.Dialog.Alert">
+        <item name="colorAccent">@color/color_primary</item>
+        <item name="android:buttonBarNegativeButtonStyle">@style/DialogButtonStyle</item>
+        <item name="android:buttonBarPositiveButtonStyle">@style/DialogButtonStyle</item>
+        <item name="android:buttonBarNeutralButtonStyle">@style/DialogButtonStyle</item>
+    </style>
+</resources>
