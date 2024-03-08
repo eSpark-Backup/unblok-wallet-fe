@@ -96,7 +96,7 @@
     "react-native-date-picker": "^4.2.14",
     "react-native-device-info": "^8.5.1",
     "react-native-elements": "^3.4.2",
-    "react-native-encrypted-storage": "^4.0.2",
+    "react-native-encrypted-storage": "^4.0.3",
     "react-native-event-listeners": "^1.0.7",
     "react-native-extra-dimensions-android": "^1.2.5",
     "react-native-flash-message": "^0.2.1",
