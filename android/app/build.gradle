@@ -1,5 +1,5 @@
 apply plugin: "com.android.application"
-// apply plugin: "com.facebook.react"
+apply plugin: "com.facebook.react"
 apply plugin: "kotlin-android"
 apply plugin: "kotlin-android"
 apply plugin: "kotlin-parcelize"
@@ -290,7 +290,7 @@ dependencies {
 
     debugImplementation 'com.facebook.soloader:soloader:0.10.5'
 
-    // releaseImplementation 'com.facebook.flipper:flipper-noop:0.248.0'
+    releaseImplementation 'com.facebook.flipper:flipper-noop:0.248.0'
     debugImplementation("com.facebook.flipper:flipper:${FLIPPER_VERSION}") {
         exclude group:'com.facebook.fbjni'
     }
@@ -334,9 +334,6 @@ task copyDownloadableDepsToLibs(type: Copy) {
 android {
     dexOptions {
         javaMaxHeapSize "4g"
-    }
-    lintOptions { 
-        checkReleaseBuilds false
     }
 }
 
