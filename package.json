@@ -76,7 +76,7 @@
     "moment": "^2.29.2",
     "node-libs-browser": "^2.2.1",
     "nodemailer": "^8.0.9",
-    "patch-package": "^8.0.0",
+    "patch-package": "^8.0.1",
     "path-browserify": "^0.0.0",
     "punycode": "^1.4.1",
     "querystring-es3": "^0.2.1",
