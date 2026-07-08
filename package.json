@@ -55,7 +55,7 @@
     "babel-plugin-transform-remove-console": "^6.9.4",
     "base-64": "^1.0.0",
     "browserify-zlib": "^0.1.4",
-    "buffer": "^4.9.2",
+    "buffer": "^6.0.3",
     "console-browserify": "^1.2.0",
     "constants-browserify": "^1.0.0",
     "crypto-js": "^4.1.1",
