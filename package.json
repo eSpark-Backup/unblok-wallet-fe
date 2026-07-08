@@ -62,7 +62,7 @@
     "d3-shape": "^3.2.0",
     "dns.js": "^1.0.1",
     "domain-browser": "^5.7.0",
-    "events": "^1.1.1",
+    "events": "^3.3.0",
     "fb-watchman": "^2.0.2",
     "google-libphonenumber": "^3.2.32",
     "http": "0.0.1-security",
