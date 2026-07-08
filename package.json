@@ -119,7 +119,7 @@
     "react-native-push-notification": "^8.1.1",
     "react-native-qrcode-scanner": "^1.5.5",
     "react-native-qrcode-svg": "^6.1.2",
-    "react-native-randombytes": "^3.6.1",
+    "react-native-randombytes": "^3.6.2",
     "react-native-raw-bottom-sheet": "^2.2.0",
     "react-native-render-html": "^6.3.4",
     "react-native-responsive-fontsize": "^0.5.1",
