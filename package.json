@@ -151,7 +151,7 @@
     "react-navigation": "^5.0.0",
     "react-navigation-collapsible": "^6.3.0",
     "react-redux": "^8.0.1",
-    "readable-stream": "^1.0.33",
+    "readable-stream": "^4.7.0",
     "realm": "^11.10.2",
     "redux": "^5.0.1",
     "save": "^2.9.0",
