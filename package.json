@@ -165,7 +165,7 @@
     "timers-browserify": "^2.0.12",
     "toggle-switch-react-native": "^3.3.0",
     "tty-browserify": "^0.0.1",
-    "uri-scheme": "^1.1.0",
+    "uri-scheme": "^2.2.0",
     "url": "^0.10.3",
     "url-parse": "^1.5.10",
     "util": "^0.10.4",
