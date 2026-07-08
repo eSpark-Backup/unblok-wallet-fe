@@ -70,7 +70,7 @@
     "https-browserify": "^0.0.1",
     "lodash": "^4.17.21",
     "metro-config": "^0.76.5",
-    "mobx": "^6.5.0",
+    "mobx": "^6.16.1",
     "mobx-persist-store": "^1.0.6",
     "mobx-react-lite": "^3.3.0",
     "moment": "^2.29.2",
