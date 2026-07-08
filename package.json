@@ -143,7 +143,7 @@
     "react-native-tcp": "^3.3.2",
     "react-native-toggle-element": "^2.0.1",
     "react-native-touch-id": "^4.4.1",
-    "react-native-udp": "^2.7.0",
+    "react-native-udp": "^4.1.7",
     "react-native-vector-icons": "^9.2.0",
     "react-native-view-shot": "^3.7.0",
     "react-native-webview": "^11.17.2",
