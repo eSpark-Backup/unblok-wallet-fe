@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "@coingrig/core": "^1.3.2",
-    "@ethersproject/shims": "^5.7.0",
+    "@ethersproject/shims": "^5.8.0",
     "@kanelloc/react-native-animated-header-scroll-view": "^1.0.0",
     "@react-keycloak/native": "^0.6.2",
     "@react-native-community/async-storage": "^1.12.1",
